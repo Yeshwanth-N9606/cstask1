@@ -1,0 +1,29 @@
+# Nmap 7.97 scan initiated Mon Aug  4 19:00:38 2025 as: nmap -sS -oN scan-result.txt 192.168.0.105
+Nmap scan report for 192.168.0.105
+Host is up (0.0011s latency).
+Not shown: 978 closed tcp ports (reset)
+PORT     STATE    SERVICE
+25/tcp   filtered smtp
+110/tcp  filtered pop3
+119/tcp  filtered nntp
+125/tcp  filtered locus-map
+135/tcp  open     msrpc
+139/tcp  open     netbios-ssn
+143/tcp  filtered imap
+445/tcp  open     microsoft-ds
+465/tcp  filtered smtps
+548/tcp  filtered afp
+563/tcp  filtered snews
+587/tcp  filtered submission
+800/tcp  filtered mdbs_daemon
+903/tcp  filtered iss-console-mgr
+993/tcp  filtered imaps
+995/tcp  filtered pop3s
+1025/tcp filtered NFS-or-IIS
+1122/tcp filtered availant-mgr
+1433/tcp filtered ms-sql-s
+1521/tcp open     oracle
+4343/tcp open     unicall
+4449/tcp open     privatewire
+
+# Nmap done at Mon Aug  4 19:00:41 2025 -- 1 IP address (1 host up) scanned in 2.45 seconds
